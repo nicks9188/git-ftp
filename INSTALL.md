@@ -36,7 +36,9 @@ git fetch
 git checkout "$(git tag | grep '^[0-9]*\.[0-9]*\.[0-9]*$' | tail -1)"
 sudo make install
 ```
-
+### TO check if it is install correctly
+type `git ftp`
+output `git-ftp <action> [<options>] [<url>]`
 
 ## Debian, Ubuntu and others using apt
 
